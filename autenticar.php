@@ -25,7 +25,7 @@
         $id = $_POST['id'];
         $nombre = $_POST['nombre'];
         $apellido = $_POST['apellido'];
-        $url = 'http://localhost/Ej/API/api.php';
+        $url = 'http://localhost/api.php';
 
         // Paso los datos a un array asociativo
         $persona = array(
