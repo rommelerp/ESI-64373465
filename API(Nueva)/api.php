@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $resultado = $conexion->query($sentencia);
             //Si ya hay una persona con el mismo id, no se REGISTRA al usuario
             if ($resultado->num_rows > 0) {
+                echo "<script>alert('YA existe ese usuario');</script>";
                 $redireccion = '<script>window.location.href = "html/error1.html?exito=true";</script>';
                 echo $redireccion;
                 //Sino, se REGISTRA al usuario  
