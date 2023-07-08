@@ -55,8 +55,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($resultado->num_rows > 0) {
                 $redireccion = '<script>window.location.href = "usuarioIndex.php?exito=true";</script>';
                 echo $redireccion;
-                //Sino, se NO SE AUOTORIZA al usuario  
+                //Sino, NO SE AUOTORIZA al usuario  
             } else {
+                echo "<script>alert('NO existe ese usuario');</script>";
                 $redireccion = '<script>window.location.href = "html/error.html?exito=true";</script>';
                 echo $redireccion;
             }
