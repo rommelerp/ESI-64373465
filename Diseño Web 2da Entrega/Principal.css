@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+body{
+    background-image: url(Wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+}
+
+nav{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background:white;
+    width: 80px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+ }
+.logo{
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    text-decoration: uppercase;
+    
+}
+
+a{
+
+    position: relative;
+    color: rgb(0, 0, 94);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.fa{
+
+    position: relative;
+    width:70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.nav-item{
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a:hover{
+
+    background: #eee;
+
+}
+
+nav:hover{
+
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+
+
+h1{
+
+
+    background: radial-gradient(circle farthest-side at top right, #265a8d 54%, #000b86 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20%;
+    padding-right: 5%;
+    text-align: right;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 70px;
+    animation-duration: 0.8s;
+    animation-name:slidein;
+    
+}
+   
+@keyframes slidein {
+
+    from {
+      margin-left: 870%;
+      width: 300%
+        }
+      
+    to {
+          margin-left: 0%;
+          width: 100%;
+        }
+
+
+ }
+
+.texto{
+
+    position: absolute;
+    background-color: rgb(28, 46, 139);
+    opacity: 80%;
+    margin-left: 480px;
+    margin-top: 200px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+ 
+p{
+    
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Mitr', sans-serif;
+    font-size: 15px;
+    
+}
+
+.Email{
+
+    position: absolute;
+    bottom: 215px;
+
+}
+
+.Direccion{
+
+    position: absolute;
+    bottom: 165px;
+
+}
+
+.Telefono{
+
+    position: absolute;
+    bottom: 110px;
+
+}
+
+
+.ig{
+
+    position: absolute;
+    bottom: 55px;
+
+}
+
+.Twitter{ 
+
+    position: absolute;
+    bottom: 0px;
+
+}
+
