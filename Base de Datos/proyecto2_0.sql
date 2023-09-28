@@ -51,7 +51,8 @@ INSERT INTO `almacen` (`id_Almacen`, `puerta_Almacen`, `calle_Almacen`, `ciudad_
 CREATE TABLE `camion` (
   `matricula` varchar(7) NOT NULL,
   `estado_Camion` varchar(50) NOT NULL,
-  `tarea_Camion` varchar(50) NOT NULL
+  `tarea_Camion` varchar(50) NOT NULL,
+  `idLote` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
