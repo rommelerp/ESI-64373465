@@ -59,10 +59,10 @@ CREATE TABLE `camion` (
 -- Volcado de datos para la tabla `camion`
 --
 
-INSERT INTO `camion` (`matricula`, `estado_Camion`, `tarea_Camion`) VALUES
-('TPA2000', 'Ocupado', 'Transportando Lote'),
-('TPA8598', 'Fuera de servicio', 'Inactivo'),
-('TPA9090', 'Libre', 'Sin tarea');
+INSERT INTO `camion` (`matricula`, `estado_Camion`, `tarea_Camion`, `idLote`) VALUES
+('TPA2000', 'Ocupado', 'Transportando Lote', 123),
+('TPA8598', 'Fuera de servicio', 'Inactivo', 234),
+('TPA9090', 'Libre', 'Sin tarea', 345);
 
 -- --------------------------------------------------------
 
@@ -113,7 +113,7 @@ INSERT INTO `camioneta` (`matricula`, `estado_Camioneta`, `tarea_Camioneta`) VAL
 --
 
 CREATE TABLE `lote` (
-  `id_Lote` int(11) NOT NULL,
+  `idLote` int(11) NOT NULL,
   `id_Almacen` int(11) NOT NULL,
   `matricula` varchar(7) NOT NULL,
   `tipo_Lote` varchar(50) NOT NULL,
@@ -125,7 +125,7 @@ CREATE TABLE `lote` (
 -- Volcado de datos para la tabla `lote`
 --
 
-INSERT INTO `lote` (`id_Lote`, `id_Almacen`, `matricula`, `tipo_Lote`, `fecha_Creacion`, `fecha_Cierre`) VALUES
+INSERT INTO `lote` (`idLote`, `id_Almacen`, `matricula`, `tipo_Lote`, `fecha_Creacion`, `fecha_Cierre`) VALUES
 (1, 1, 'TPA2000', 'Inicial', '2023-05-01 23:00:00', NULL),
 (2, 1, 'TPA2000', 'Final', '2023-08-01 19:49:29', '2023-09-20 19:49:29');
 
