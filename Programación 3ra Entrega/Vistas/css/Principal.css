@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+/*MENU*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+body {
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+main{
+    flex: 1;
+}
+
+nav {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: white;
+    width: 80px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo {
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    text-decoration: uppercase;
+
+}
+
+a {
+
+    position: relative;
+    color: rgb(0, 0, 94);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.fa {
+
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.nav-item {
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a:hover {
+
+    background: #eee;
+
+}
+
+nav:hover {
+
+    width: 15.5rem;
+    transition: all 0.5s ease;
+
+}
+
+/*FIN MENU*/
+/*INICIO*/
+h1 {
+
+
+    background: radial-gradient(circle farthest-side at top right, #265a8d 54%, #000b86 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 5%;
+    padding-right: 5%;
+    text-align: right;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 70px;
+    animation-duration: 0.8s;
+    animation-name: slidein;
+
+}
+
+
+
+@keyframes slidein {
+
+    from {
+        margin-left: 870%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+
+}
+
+.seguimiento {
+    display: grid;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    text-align: center;
+    margin-top: 80px;
+    /* Esto es opcional, ajusta la altura del contenedor según tus necesidades */
+}
+
+.rastreo {
+    display: flex;
+    height: 70px;
+}
+
+input {
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgb(83, 83, 83);
+}
+
+#codigo {
+    border-right: 0px solid black;
+    width: 200px;
+    text-align: center;
+    border-radius: 0px 0px 0px 5px;
+}
+
+h2 {
+    border: 1px solid black;
+    border-bottom: 0 solid black;
+    color: rgb(255, 255, 255);
+    background: radial-gradient(circle farthest-side at top right, #265a8d 54%, #000b86ce 84%);
+    background-color: #ffffff86;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#enviar {
+    width: 70px;
+    background-color: #b6b6b6;
+    border-left: 0px solid black;
+    align-items: center;
+    border-radius: 0px 0px 5px 0px;
+}
+
+.texto {
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    /* Alinea el contenido en el centro */
+    background-color: rgb(28, 46, 139);
+    opacity: 80%;
+    border-radius: 10px;
+    width: 50%; /* Establece el ancho deseado */
+    margin: 40px auto; /* Centra horizontalmente */
+}
+
+p {
+    margin: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Mitr', sans-serif;
+    font-size: 15px;
+
+}
+
+/*FIN INICIO*/
+/*REDES*/
+.Email {
+
+    position: absolute;
+    bottom: 215px;
+
+}
+
+.Direccion {
+
+    position: absolute;
+    bottom: 163px;
+
+}
+
+.Telefono {
+
+    position: absolute;
+    bottom: 110px;
+
+}
+
+
+.ig {
+
+    position: absolute;
+    bottom: 55px;
+
+}
+
+.Twitter {
+
+    position: absolute;
+    bottom: 0px;
+
+}
+
+/*FIN REDES*/

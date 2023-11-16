@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+
+}
+
+body{
+    background-color: #2378b1;
+}
+
+nav{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background:white;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+ }
+.logo{
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    text-decoration: uppercase;
+    
+}
+
+a{
+
+    position: relative;
+    color: rgb(0, 0, 94);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.fa{
+
+    position: relative;
+    width:70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.nav-item{
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a:hover{
+
+    background: #eee;
+
+}
+
+nav:hover{
+
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+
+.Email{
+
+    position: absolute;
+    bottom: 215px;
+
+}
+
+.Direccion{
+
+    position: absolute;
+    bottom: 164px;
+
+}
+
+.Telefono{
+
+    position: absolute;
+    bottom: 110px;
+
+}
+
+
+.ig{
+
+    position: absolute;
+    bottom: 55px;
+
+}
+
+.Twitter{ 
+
+    position: absolute;
+    bottom: 0px;
+
+}
