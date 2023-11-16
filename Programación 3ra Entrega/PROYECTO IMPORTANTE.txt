@@ -1,0 +1,40 @@
+Logout***LISTO*** FALTA AGREGARLO A TODOS LOS ARCHIVOS
+errores
+TOKENNNNNNNNNNNNN***LISTO***
+clave secreta
+Botones pagination vehiculo***ummmm***
+Orden de Entrega***LISTO***
+Agregar tabla de la tabla CONDUCE ***LISTO***
+Resolver problema de cedula en vistaCamionero ***LISTO***
+HACER VistaFuncionario***LISTO***
+
+//////////////////////////////////////CAMION////////////////////////////////////////////////////////////////////////////////////////
+
+INICIAR VIAJE///////////////////// ***LISTO***
+Verificar q todos los lotes que tiene el camion esten en "cerrado". ***LISTO***
+Cambia la fechaInicio a la tabla "tiene" para todos los lotes de ese camion. ***LISTO***
+Cambia a todos los paquetes de los lotes asignados el estadoPaquete a "En ruta". ***LISTO***
+
+FINALIZAR VIAJE(Cuando llega a la central)////////////////////***LISTO***
+Verificar q todos los lotes esten "entregados" ***LISTO***
+Cambia el estado de camion a "libre" ***LISTO***
+
+
+LOTE/////////////////***LISTO***
+Para entregar lote, el estadoLote tiene q estar en cerrado (No hace falta, ya que al iniciar viaje, todos los lotes cambian a cerrado)
+Cuando se entrega lote, cambia estadoLote a entregado, y fechaEntregado en la tabla "almacena", y fechaFin de la tabla "tiene", 
+y el estadoPaquete a "almacenado".***LISTO***
+
+/////////////////////////////////////////////////CAMIONETA////////////////////////////////////////////////////////////////////////////
+
+INICIAR VIAJE/////////////////////////***LISTO***
+Verificar que todos los paquetes esten "almacenados" (No hace falta)
+Cambiar "estadoPaquete" a "En camino al propietario" ***LISTO***
+
+FINALIZAR VIAJE//////////////////////***LISTO***
+Verificar q todos los paquete esten "entregados"***LISTO***
+Cambiar "estadoCamioneta" a "libre"***LISTO***
+
+PAQUETE///////////////////////////////***LISTO***
+Cambiar estadoPaquete a "Entregado"***LISTO***
+Poner fechaEntregado en la tabla "lleva"***LISTO***

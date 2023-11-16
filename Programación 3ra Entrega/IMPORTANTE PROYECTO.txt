@@ -1,0 +1,2 @@
+1- clave secreta
+2- Token para apis

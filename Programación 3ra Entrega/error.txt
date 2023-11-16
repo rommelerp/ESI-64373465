@@ -1,0 +1,123 @@
+[03-Nov-2023 04:15:58 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$idTrayectonOriginal in D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiTrayecto.php on line 30
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$nombre in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$apellido in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$cedula in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$telefono in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$rol in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$cedulaOriginal in C:\xampp\htdocs\Programa\APIs\apiUsuario.php on line 28
+[03-Nov-2023 15:43:08 Europe/Berlin] Error en la actualización: Unknown column 'cedulaOriginal' in 'where clause'
+[03-Nov-2023 15:47:57 Europe/Berlin] Error en la actualización: Unknown column 'cedulaOriginal' in 'where clause'
+[03-Nov-2023 15:48:56 Europe/Berlin] Error en la actualización: Duplicate entry '0' for key 'PRIMARY'
+[03-Nov-2023 15:49:52 Europe/Berlin] Error en la actualización: Duplicate entry '0' for key 'PRIMARY'
+[03-Nov-2023 15:51:31 Europe/Berlin] Error en la actualización: Duplicate entry '0' for key 'PRIMARY'
+[03-Nov-2023 16:01:03 Europe/Berlin] Error en la actualización: Duplicate entry '0' for key 'PRIMARY'
+[10-Nov-2023 07:18:25 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\almacenModelo.php on line 25
+[10-Nov-2023 07:18:25 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\almacenModelo.php on line 25
+[10-Nov-2023 07:18:25 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\almacenModelo.php on line 25
+[10-Nov-2023 07:18:25 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\almacenModelo.php on line 25
+[10-Nov-2023 07:18:31 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php on line 25
+[10-Nov-2023 07:18:31 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php on line 25
+[10-Nov-2023 07:18:31 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php on line 25
+[10-Nov-2023 07:18:31 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php on line 25
+[10-Nov-2023 07:18:42 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\trayectoModelo.php on line 25
+[10-Nov-2023 07:18:42 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\trayectoModelo.php on line 25
+[10-Nov-2023 07:18:42 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\trayectoModelo.php on line 25
+[10-Nov-2023 07:18:42 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\trayectoModelo.php on line 25
+[10-Nov-2023 07:18:48 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:48 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:48 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:48 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:51 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:51 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:51 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[10-Nov-2023 07:18:51 Europe/Berlin] PHP Warning:  Undefined array key "idLote" in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\vehiculoModelo.php on line 25
+[14-Nov-2023 06:07:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: mysqli_stmt object is already closed in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php:406
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php(406): mysqli_stmt->close()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiLote.php(31): Lote::update('1', 'Abierto', '1')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\loteModelo.php on line 406
+[15-Nov-2023 00:57:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '5' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('5', 'En Proceso', 'Rommel', '12', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 01:00:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php:330
+Stack trace:
+#0 D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php(330): mysqli_stmt->execute()
+#1 D:\Programas\XAMPP\Installer\htdocs\Programa\APIs\apiPaquete.php(18): Paquete::insert('6', 'En Proceso', 'Rommela', '1', 'Garcia', 'Medellin')
+#2 {main}
+  thrown in D:\Programas\XAMPP\Installer\htdocs\Programa\Modelos\paqueteModelo.php on line 330
+[15-Nov-2023 23:19:11 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '23566667' for key 'PRIMARY' in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php(97): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\Programa\APIs\apiUsuario.php(17): Usuario::insert('Jorge', 'P\xC3\xA9rez', '23566667', '23566667', '097485987', 'camionero')
+#2 {main}
+  thrown in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php on line 97
+[15-Nov-2023 23:20:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '55633371' for key 'PRIMARY' in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php(97): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\Programa\APIs\apiUsuario.php(17): Usuario::insert('Juan', 'Rodr\xC3\xADguez', '55633371', '55633371', '095737786', 'camionero')
+#2 {main}
+  thrown in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php on line 97
+[15-Nov-2023 23:20:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '57776661' for key 'PRIMARY' in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php(97): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\Programa\APIs\apiUsuario.php(17): Usuario::insert('Mateo', 'Hernandez', '57776661', '57776661', '094756783', 'camionero')
+#2 {main}
+  thrown in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php on line 97
+[15-Nov-2023 23:21:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '58814578' for key 'PRIMARY' in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php:97
+Stack trace:
+#0 C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php(97): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\Programa\APIs\apiUsuario.php(17): Usuario::insert('Romina', 'Rodr\xC3\xADguez', '58814578', '58814578', '094756783', 'camionero')
+#2 {main}
+  thrown in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php on line 97
+[15-Nov-2023 23:29:03 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '58814578' for key 'PRIMARY' in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php:89
+Stack trace:
+#0 C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php(89): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\Programa\APIs\apiUsuario.php(17): Usuario::insert('Romina', 'Rodr\xC3\xADguez', '58814578', '58814578', '094756783', 'camionero')
+#2 {main}
+  thrown in C:\xampp\htdocs\Programa\Modelos\usuarioModelo.php on line 89
