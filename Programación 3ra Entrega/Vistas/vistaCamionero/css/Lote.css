@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+body{
+    background: rgb(30, 29, 114);
+}
+
+nav{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background:white;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+ }
+.logo{
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 7px 0 0 7px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    text-decoration: uppercase;
+    
+}
+
+a{
+
+    position: relative;
+    color: rgb(0, 0, 94);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.fa{
+
+    position: relative;
+    width:70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.nav-item{
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a:hover{
+
+    background: #eee;
+
+}
+
+nav:hover{
+
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+
+.logout{
+
+    position: absolute;
+    bottom: 0;
+
+}
+
+table{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    border-collapse: collapse;
+    margin-left: 40.5rem;
+}
+tr{
+    background-color: rgb(201, 201, 201);
+}
+th, td {
+    
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 5px;
+}
+*
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pagination-button {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 2px;
+    width: 30px;
+    background-color: #e0e0e0;
+    text-decoration: none;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+
+/*INTENTO DE CAROUSEL*/
+/*
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  */

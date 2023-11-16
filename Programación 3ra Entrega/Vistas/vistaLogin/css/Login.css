@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+body{
+    background-image: url(../../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background:white;
+    width: 80px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+
+ }
+.logo{
+
+    text-align: center;
+    display: flex;
+    transition: all 0.5 ease;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span{
+
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    text-decoration: uppercase;
+    
+}
+
+a{
+
+    position: relative;
+    color: rgb(0, 0, 94);
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.fa{
+
+    position: relative;
+    width:70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.nav-item{
+
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+a:hover{
+
+    background: #eee;
+
+}
+
+nav:hover{
+
+    width: 280px;
+    transition: all 0.5s ease;
+
+}
+
+
+.Email{
+
+    position: absolute;
+    bottom: 215px;
+
+}
+
+.Direccion{
+
+    position: absolute;
+    bottom: 164px;
+
+}
+
+.Telefono{
+
+    position: absolute;
+    bottom: 110px;
+
+}
+
+
+.ig{
+
+    position: absolute;
+    bottom: 55px;
+
+}
+
+.Twitter{ 
+
+    position: absolute;
+    bottom: 0px;
+
+}
+
+input{ 
+
+    padding: 10px;
+    margin: 5px;
+    width: 15rem;
+    border-radius: 10px;
+    color: rgb(12, 84, 167);
+    font-size: medium;
+}
+
+#Entrar{
+    
+    background-color: #eee;
+    border-radius: 15px;
+    width: 8rem;
+
+}
+
+#todo{
+    padding-top: 7rem;
+}
+
+#slaaa{
+
+    color: white;
+
+}
+
+
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 12px;
+     
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #dfe9eb;
+    border: 2px solid #2D77A9;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #2F85B0;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #22BFD0;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #2EB8C7;
+  }
+
+  .derechos{ 
+
+    font-size: medium;
+
+}
+
+.footer{ 
+
+    background-color: rgb(70, 148, 212);
+    padding: 20px;
+    margin-top: 34.1rem;
+    align-items: center;
+    text-align: center;
+
+}
+.password-container {
+    position: relative;
+}
+
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.User {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#Entrar {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .password-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    #togglePassword {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .User {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    #Entrar {
+        max-width: 300px;
+        margin: 0 auto;    }
+}
+@media screen and (min-width: 300px) {
+    .password-container {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    #togglePassword {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    .User {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    #Entrar {
+        max-width: 200px;
+        margin: 0 auto;    }
+}
